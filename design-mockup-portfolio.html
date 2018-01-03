@@ -1,68 +1,51 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>mock3-portfolio-1</title>
-  <link rel="stylesheet" href="css/main.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-</head>
-
-<body>
-  <main class="mock3-portfolio-1">
-    <section class="row">
-      <div class="col-6">
-        <img src="images/udacity.png" alt="Logo" class="logo">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>design-mockup-portfolio</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" >
+  </head>
+  <body>
+    <header >
+      <div class="header-left icon" >
+        <img alt="Logo" class="logo" src="images/udacity.png">
       </div>
-      <div class="col-6 end">
-        <div class="col-12">
-          <!-- <span class="title">JANE DOETTE</span> -->
-          JANE DOETTE
-        </div>
-        <div class="col-12 top">
-          <!-- <span class="sub-title">FRONT-END NINJA</span> -->
-          FRONT-END NINJA
-        </div>
+      <div class="header-right author">
+        <div class="author-item name">JANE DOETTE</div>
+        <div class="author-item role">FRONT-END NINJA</div>
       </div>
+    </header>
+    <section class="subject">
+      <hr >
+      <picture>
+        <source media="(min-width:641px)" srcset="http://placekitten.com/g/1280/540">
+        <source media="(min-width:1281px)" srcset="http://placekitten.com/g/1920/1080">
+        <img alt="This is an image" src="http://placekitten.com/g/640/270" class="pic">
+      </picture>
     </section>
-    <hr class="line">
-    <section class="row">
-      <div class="col-12">
-        <img src="https://via.placeholder.com/860x360" alt="This is an image">
-      </div>
-    </section>
-    <section>
-      <h2 class="list-title">Featured Work</h2>
-      <div class="row">
-        <div class="col-4">
-          <figure class="pic">
-            <img src="http://placekitten.com/g/300/200" alt="APPIFY">
-            <figcaption class="img-title">
-              <a href="https://github.com/udacity/Appify/">APPIFY</a>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-4">
-          <figure class="pic">
-            <img src="http://placekitten.com/g/300/200" alt="SUNFLOWER">
-            <figcaption class="img-title">
-              <a href="https://github.com/udacity/Sunflower/">SUNFLOWER</a>
-            </figcaption>
-          </figure>
-        </div>
-        <div class="col-4">
-          <figure class="pic">
-            <img src="http://placekitten.com/g/300/200" alt="BOKEH">
-            <figcaption class="img-title">
-              <a href="https://github.com/udacity/Bokeh/">BOKEH</a>
-            </figcaption>
-          </figure>
-        </div>
-      </div>
-    </section>
-  </main>
-</body>
-
+    <h2 class="title">Featured Work</h2>
+    <article class="app">
+      <figure class="app-pic">
+        <img alt="APPIFY" src="http://placekitten.com/g/640/350" class="pic">
+        <figcaption class="pic-title">
+          <a href="https://github.com/udacity/Appify/">APPIFY</a>
+        </figcaption>
+      </figure>
+      <figure class="app-pic">
+        <img alt="SUNFLOWER" src="http://placekitten.com/g/640/350" class="pic">
+        <figcaption class="pic-title">
+          <a href="https://github.com/udacity/Sunflower/">SUNFLOWER</a>
+        </figcaption>
+      </figure>
+      <figure class="app-pic">
+        <img alt="BOKEH" src="http://placekitten.com/g/640/350" class="pic">
+        <figcaption class="pic-title">
+          <a href="https://github.com/udacity/Bokeh/">BOKEH</a>
+        </figcaption>
+      </figure>
+    </article>
+  </body>
 </html>
