@@ -36,11 +36,11 @@ header {
   height: 50%;
 }
 .name {
-  padding: 20px 0 0 0;
+  padding: 20px 0 0; /* 上 | 左右相同 | 下 */
   font-size: 32px;
 }
 .role {
-  padding: 10px 0 10px 0;
+  padding: 10px 0; /* 上下相同 | 左右相同 */
   font-size: 12px;
 }
 
@@ -101,9 +101,6 @@ h2 {
     width: calc((100% - 20px)/3);
     margin-right: 10px;
   }
-  /*.app-pic:nth-child(3n){
-    margin-right: 0;
-  }*/
   .app-pic:last-child {
     margin-right: 0;
   }
